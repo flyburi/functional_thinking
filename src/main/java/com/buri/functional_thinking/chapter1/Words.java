@@ -1,4 +1,4 @@
-package com.buri.functional_thinking.application.chapter1;
+package com.buri.functional_thinking.chapter1;
 
 import java.util.*;
 import java.util.regex.Matcher;

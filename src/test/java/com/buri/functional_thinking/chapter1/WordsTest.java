@@ -1,7 +1,6 @@
 package com.buri.functional_thinking.chapter1;
 
 
-import com.buri.functional_thinking.application.chapter1.Words;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.Test;
 
