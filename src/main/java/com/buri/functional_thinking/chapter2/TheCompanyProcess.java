@@ -22,6 +22,7 @@ public class TheCompanyProcess {
 		if (names == null) return "";
 
 		return names.stream()
+				.filter(name -> name != null)
 				.filter(name -> name.length() > 1)
 				.map(name -> capitalizeFirstLetter(name))
 				.collect(Collectors.joining(","));
